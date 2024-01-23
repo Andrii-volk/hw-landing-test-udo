@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 50px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.main-section {
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 18%;
+  color: #926239;
+  background-color: aquamarine;
+  background-image: url(./../images/sea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+}
+.subheading {
+  margin: 0;
+  font-size: 20px;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: #926239 1px solid;
+  border-radius: 10px;
+  color: #926239;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.bg-dark {
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.bg-light{
+  padding: 20px;
+  background:#fff;
+  color:#926239 ;
+  font-size: 17px;
+  line-height: 1.6; 
+}
+.align-left{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33.3%;
+  padding: 0;
+  margin-right: -4px;
+  text-align: left;
+}
+p{
+  margin: 0;
+}
